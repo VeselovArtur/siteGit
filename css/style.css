@@ -1,0 +1,42 @@
+/* Начало блока стилей для разворота аккардеон*/
+.ac-container{ width: auto; margin: 10px auto 30px auto; text-align: left; }
+.ac-container label{ padding: 5px 15px;	position: relative; z-index: 20; display: block; height: 15px; cursor: pointer; line-height: 13px; background: -moz-linear-gradient(top); background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(100%,#eaeaea)); background: -webkit-linear-gradient(top, #ffffff 1%,#eaeaea 100%); background: -o-linear-gradient(top, #ffffff 1%,#eaeaea 100%); background: -ms-linear-gradient(top, #ffffff 1%,#eaeaea 100%); background: linear-gradient(top, #ffffff 1%,#eaeaea 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea',GradientType=0 ); box-shadow: 	0px 0px 0px 1px rgba(155,155,155,0.3), 	1px 0px 0px 0px rgba(255,255,255,0.9) inset, 0px 2px 2px rgba(0,0,0,0.1);}
+.ac-container label:hover{ background: #c6e1ec; }
+.ac-container input:checked + label,
+.ac-container input:checked + label:hover{ background: #c6e1ec;	color: #3d7489;	text-shadow: 0px 1px 1px rgba(255,255,255, 0.6); box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.3), 0px 2px 2px rgba(0,0,0,0.1); }
+.ac-container label:hover:after,
+.ac-container input:checked + label:hover:after{ content: ''; position: absolute; width: 24px; height: 24px; right: 13px; top: 7px; }
+.ac-container input:checked + label:hover:after{ background-image: ; }
+.ac-container input{ display: none; }
+.ac-container article{ background: rgba(255, 255, 255, 0.5); margin-top: -1px; overflow: hidden; height: 0px; position: relative; z-index: 10; -webkit-transition: height 0.3s ease-in-out, box-shadow 0.6s linear; -moz-transition: height 0.3s ease-in-out, box-shadow 0.6s linear; -o-transition: height 0.3s ease-in-out, box-shadow 0.6s linear; -ms-transition: height 0.3s ease-in-out, box-shadow 0.6s linear; transition: height 0.3s ease-in-out, box-shadow 0.6s linear; }
+.ac-container article p{ padding: 10px; text-shadow: 1px 1px 1px rgba(255,255,255,0.8); }
+.ac-container input:checked ~ article{ -webkit-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;	-moz-transition: height 0.5s ease-in-out, box-shadow 0.1s linear; -o-transition: height 0.5s ease-in-out, box-shadow 0.1s linear; -ms-transition: height 0.5s ease-in-out, box-shadow 0.1s linear; transition: height 0.5s ease-in-out, box-shadow 0.1s linear;	box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.3); }
+.ac-container input:checked ~ article.ac-small{ height: 680px; }
+.ac-container input:checked ~ article.ac-medium{ height: 160px; }
+.ac-container input:checked ~ article.ac-large{	height: 470px; }
+.ac-container input:checked ~ article.ac-large1{	height: 440px; }
+.ac-container input:checked ~ article.ac-large2{	height: 490px; }
+.ac-container input:checked ~ article.ac-large3{	height: 550px; }
+.ac-container input:checked ~ article.ac-large4{	height: 620px; }
+.ac-container input:checked ~ article.ac-large5{	height: 630px; }
+.ac-container input:checked ~ article.ac-large6{	height: 520px; }
+.ac-container input:checked ~ article.ac-large7{	height: 650px; }
+.ac-container input:checked ~ article.ac-large8{	height: 150px; }
+.ac-container input:checked ~ article.ac-large9{	height: 570px; }
+.ac-container input:checked ~ article.ac-large10{	height: 490px; }
+.ac-container input:checked ~ article.ac-large11{	height: 580px; }
+.ac-container input:checked ~ article.ac-large12{	height: 550px; }
+.ac-container input:checked ~ article.ac-large13{	height: 550px; }
+.ac-container input:checked ~ article.ac-large14{	height: 660px; }
+.ac-container input:checked ~ article.ac-large15{	height: 1030px; }
+.ac-container input:checked ~ article.ac-large16{	height: 1300px; }
+.ac-container input:checked ~ article.ac-large17{	height: 1580px; }
+.ac-container input:checked ~ article.ac-large18{	height: 4120px; }
+.ac-container input:checked ~ article.ac-large19{	height: 1260px; }
+.ac-container input:checked ~ article.ac-large20{	height: 2870px; }
+.ac-container input:checked ~ article.ac-large21{	height: 280px; }
+.ac-container input:checked ~ article.ac-large22{	height: 380px; }
+.ac-container input:checked ~ article.ac-large23{	height: 780px; }
+.ac-container input:checked ~ article.ac-large24{	height: 600px; }
+.ac-container input:checked ~ article.ac-large25{	height: 880px; }
+/* конец блока стилей для разворота аккардеон*/
